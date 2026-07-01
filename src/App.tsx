@@ -127,7 +127,16 @@ export default function App() {
   }
 
   return (
-    <div className="flex h-screen w-screen flex-col overflow-hidden font-sans lg:flex-row">
+    <div
+      className="flex h-screen w-screen flex-col overflow-hidden bg-slate-900 font-sans lg:flex-row"
+      style={{
+        // 노치/상태바/홈 인디케이터를 피해 앱 전체를 안전영역 안쪽으로 배치
+        paddingTop: 'env(safe-area-inset-top)',
+        paddingLeft: 'env(safe-area-inset-left)',
+        paddingRight: 'env(safe-area-inset-right)',
+        paddingBottom: 'env(safe-area-inset-bottom)',
+      }}
+    >
       {/* 모바일 전용 상단 바: 탭 전환 + 내보내기 */}
       <div className="flex items-center gap-2 border-b border-slate-800 bg-slate-900 p-2 lg:hidden">
         <div className="flex overflow-hidden rounded-md border border-slate-700">
