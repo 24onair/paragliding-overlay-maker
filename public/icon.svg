@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#0ea5e9"/>
+  <!-- 패러글라이더 캐노피 -->
+  <path d="M96 176 C 176 116, 336 116, 416 176 L 388 214 C 372 190, 320 178, 256 178 C 192 178, 140 190, 124 214 Z" fill="#ffffff"/>
+  <!-- 라인 -->
+  <g stroke="#e2e8f0" stroke-width="6">
+    <line x1="130" y1="212" x2="248" y2="320"/>
+    <line x1="256" y1="180" x2="256" y2="320"/>
+    <line x1="382" y1="212" x2="264" y2="320"/>
+  </g>
+  <!-- 파일럿 -->
+  <circle cx="256" cy="336" r="22" fill="#0f172a"/>
+  <rect x="238" y="352" width="36" height="46" rx="12" fill="#0f172a"/>
+</svg>

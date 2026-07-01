@@ -1,0 +1,19 @@
+{
+  "name": "패러글라이딩 방송 오버레이 제작기",
+  "short_name": "오버레이 제작",
+  "description": "패러글라이딩 라이브 방송용 1920×1080 투명 PNG 오버레이를 만드는 도구",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
